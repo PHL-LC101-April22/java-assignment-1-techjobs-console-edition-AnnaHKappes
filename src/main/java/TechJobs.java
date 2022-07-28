@@ -125,16 +125,16 @@ public class TechJobs {
 
             for (int i = 0; i < someJobs.size(); i++) {
 
-                System.out.println("*****");
+                System.out.println("\n*****");
 
                 for (Map.Entry<String, String> jobs : someJobs.get(i).entrySet()) {
                     System.out.println(jobs.getKey() + ": " + jobs.getValue());
                 }
 
-                System.out.println("*****\n");
+                System.out.println("*****");
             }
         } else {
-            System.out.println("No Results");
+            System.out.print("No Results");
         }
     }
 }
